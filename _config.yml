@@ -1,3 +1,18 @@
-title: ""
+title: "Annabelle Johnstone — Engineering Projects"
+description: "Portfolio of university and personal engineering projects (Mechanical & Electrical Engineering at the University of Edinburgh)"
+author: "Annabelle Johnstone"
+
 markdown: kramdown
 theme: minima
+
+header_pages:
+  - about.md
+  - university-projects.md
+  - home-projects.md
+
+github_username: your-github-username
+linkedin: your-linkedin-handle
+
+collections:
+  projects:
+    output: true
