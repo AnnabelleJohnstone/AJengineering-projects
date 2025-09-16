@@ -7,4 +7,4 @@ title: At Home Projects
 
 _Content coming soon..._
 
-[← Back to homepage](/)
+[Back to Home](/)
