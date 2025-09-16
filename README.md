@@ -1,26 +1,41 @@
 # Annabelle Johnstone — Engineering Projects
 
-Welcome! This repository hosts my personal engineering project showcase website, built using GitHub Pages.
+Welcome to my personal engineering project showcase! This website is built using [Jekyll](https://jekyllrb.com/) and hosted with [GitHub Pages](https://pages.github.com/) as part of my journey in Mechanical and Electrical Engineering at The University of Edinburgh.
 
-## 🌐 View the Website
+## 🌐 Visit My Website
+
 [AJengineering-projects GitHub Pages](https://annabellejohnstone.github.io/AJengineering-projects/)
 
-## ✨ Sections
+## 🚀 What You'll Find
 
-- **About Me:** Get to know who I am, my interests, and background.
-- **University Projects:** Explore the engineering projects I've completed as part of my university coursework.
-- **At Home Projects:** Check out my personal, at-home projects and experiments.
+- **About Me:** A short introduction and a separate page with more about my interests, university life, and extracurricular activities.
+- **University Projects:** A space for academic engineering projects (coming soon).
+- **At Home Projects:** Personal projects and creative work outside university (coming soon).
 
-## 🛠 How to Edit
+## 🛠️ How It's Built
 
-- **Website source files are:**  
-  - `index.html` (main content)  
-  - `styles.css` (styling)  
-- To add or update projects, edit the relevant sections in `index.html`.
+- **Jekyll**: Static site generator that turns simple Markdown files into a website.
+- **GitHub Pages**: Free hosting for static sites, tightly integrated with GitHub repositories.
+- **Custom Styling**: See `styles.css` for the look and feel.
 
-## 🤝 Contributions
+## 📂 Repository Structure
 
-This site is my personal showcase, but feel free to open issues or suggestions!
+- `_layouts/default.html` — Main HTML template used by all pages
+- `index.md` — Homepage with navigation and project sections
+- `about.md` — Full bio and extracurricular info
+- `university-projects.md` — Placeholder for university projects
+- `home-projects.md` — Placeholder for personal projects
+- `styles.css` — Sitewide CSS
+- `_config.yml` — Jekyll site configuration
+
+## 📈 Future Updates
+
+I’ll be adding details and images for my projects as they progress, both in my degree and at home. Stay tuned for updates!
+
+## 🤝 Contact & Contributions
+
+This site is my personal showcase, but suggestions or encouragement are always welcome!  
+Feel free to open an issue for feedback or reach out via [GitHub profile](https://github.com/AnnabelleJohnstone).
 
 ---
 
