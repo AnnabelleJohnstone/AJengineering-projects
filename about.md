@@ -13,4 +13,4 @@ I’m proud to serve as the Social Secretary for the Mechanical Engineering Soci
 
 My technical skills include programming (Python, MATLAB, C++), CAD design (SolidWorks), and hands-on experience in robotics and automation.
 
-[← Back to homepage](/)
+[Back to Home](/)
