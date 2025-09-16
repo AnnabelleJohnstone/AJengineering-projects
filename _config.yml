@@ -5,6 +5,9 @@ author: "Annabelle Johnstone"
 markdown: kramdown
 theme: minima
 
+baseurl: "/AJengineering-projects"   # <-- IMPORTANT
+url: "https://annabellejohnstone.github.io"
+
 header_pages:
   - about.md
   - university-projects.md
