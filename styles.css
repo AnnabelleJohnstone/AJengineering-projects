@@ -1,59 +1,97 @@
+/* General styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
-  background: #f9f9f9;
-  color: #222;
+  background: #fff0f6; /* soft pink background */
+  color: #333;
 }
+
+/* Navigation bar */
 nav {
-  background: #e7ecf4;
+  background: #ffe6f0; /* lighter pink */
   padding: 1em 2em;
   margin-bottom: 2em;
   text-align: center;
-  border-bottom: 1px solid #dde2ea;
+  border-bottom: 2px solid #ffb6c1; /* light pink border */
 }
 nav a {
-  margin-right: 1em;
-  color: #0057b7;
+  margin: 0 1em;
+  color: #d63384; /* magenta-pink accent */
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1em;
 }
-nav a:last-child {
-  margin-right: 0;
-}
 nav a:hover {
   text-decoration: underline;
-  color: #003d80;
+  color: #a61e4d; /* darker pink */
 }
+
+/* Page container */
 .container {
-  max-width: 700px;
+  max-width: 750px;
   background: #fff;
   margin: 2em auto;
   padding: 2em;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4); /* pink shadow */
+  border: 2px solid #ffd6e7;
 }
-main {
-  padding: 0;
-}
+
+/* Headings */
 h1, h2 {
-  color: #0057b7;
+  color: #d63384; /* vibrant pink */
+  font-family: "Georgia", serif;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-top: 0;
 }
 h2 {
-  font-size: 1.3em;
-  margin-top: 2em;
+  font-size: 1.4em;
+  margin-top: 1.5em;
   margin-bottom: 0.5em;
+  border-bottom: 1px dashed #ffb6c1;
+  padding-bottom: 0.3em;
 }
+
+/* Lists */
 ul {
   margin-left: 1.5em;
+  list-style: "🌸 "; /* cute flower bullets */
 }
+
+/* Links */
 a {
-  color: #0057b7;
+  color: #d63384;
 }
 a:hover {
-  color: #003d80;
+  color: #a61e4d;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  color: #fff !important;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(214, 51, 132, 0.4);
+  transition: background 0.3s ease;
+}
+.button:hover {
+  background: linear-gradient(135deg, #ff69b4, #d63384);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #555;
+  border-top: 2px dashed #ffb6c1;
+  background: #ffe6f0;
 }
