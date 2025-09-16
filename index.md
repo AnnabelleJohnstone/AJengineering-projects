@@ -3,23 +3,30 @@ layout: default
 title: Home
 ---
 
-# Annabelle Johnstone — Engineering Projects
-
-<nav>
+<nav class="navbar">
   <a href="/">Home</a>
   <a href="/about/">About Me</a>
   <a href="/university-projects/">University Projects</a>
   <a href="/home-projects/">At Home Projects</a>
 </nav>
 
-Welcome to my engineering project showcase!  
-I'm a Mechanical and Electrical Engineering student at The University of Edinburgh.
+<div class="container">
+  <h1>Annabelle Johnstone — Engineering Projects</h1>
+  <p>Welcome to my engineering project showcase!<br>
+  I'm a Mechanical and Electrical Engineering student at The University of Edinburgh.</p>
 
-## About Me
-Learn more about my journey and interests on the [About Me](/about/) page.
+  <section>
+    <h2>About Me</h2>
+    <p>Learn more about my journey and interests on the <a href="/about/">About Me</a> page.</p>
+  </section>
 
-## University Projects
-Explore my academic projects on the [University Projects](/university-projects/) page.
+  <section>
+    <h2>University Projects</h2>
+    <p>Explore my academic projects on the <a href="/university-projects/">University Projects</a> page.</p>
+  </section>
 
-## At Home Projects
-See what I’ve built outside university on the [At Home Projects](/home-projects/) page.
+  <section>
+    <h2>At Home Projects</h2>
+    <p>See what I’ve built outside university on the <a href="/home-projects/">At Home Projects</a> page.</p>
+  </section>
+</div>
