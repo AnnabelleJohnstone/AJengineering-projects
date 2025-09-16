@@ -19,7 +19,7 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hi, I’m Annabelle, an Mechanical and Electrical engineering student at The University of Edinburgh. I am passionate about creating and exploring new technologies. Welcome to my project showcase!
+        Hi, I’m Annabelle, a Mechanical and Electrical engineering student at The University of Edinburgh. I am passionate about creating and exploring new technologies. Welcome to my project showcase!
       </p>
       <!-- Optional: Add a profile image -->
       <!-- <img src="profile.jpg" alt="Annabelle Johnstone" class="profile-pic"> -->
