@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Annabelle Johnstone
+# Annabelle Johnstone — Engineering Projects
 
 <nav>
   <a href="/">Home</a>
@@ -12,15 +12,14 @@ title: Home
   <a href="/home-projects/">At Home Projects</a>
 </nav>
 
-## About Me
+Welcome to my engineering project showcase!  
+I'm a Mechanical and Electrical Engineering student at The University of Edinburgh.
 
-Hi, I’m Annabelle, a Mechanical and Electrical engineering student at The University of Edinburgh. I am passionate about creating and exploring new technologies.  
-[Read more &rarr;](/about/)
+## About Me
+Learn more about my journey and interests on the [About Me](/about/) page.
 
 ## University Projects
-
-_Content coming soon..._
+Explore my academic projects on the [University Projects](/university-projects/) page.
 
 ## At Home Projects
-
-_Content coming soon..._
+See what I’ve built outside university on the [At Home Projects](/home-projects/) page.
