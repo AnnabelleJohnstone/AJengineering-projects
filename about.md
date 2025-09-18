@@ -26,4 +26,4 @@ My technical skills include:
 - Engineering societies  
 - Volunteering  
 
-[← Back to Home](/)
+[← Back to Home]({{ '/home/' | relative_url }})
