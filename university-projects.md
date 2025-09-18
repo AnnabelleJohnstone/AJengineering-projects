@@ -8,4 +8,5 @@ title: University Projects
 Work in progress!  
 Soon this page will feature all my engineering projects from university.
 
-[← Back to Home]{{ '/' | relative_url }}
+[← Back to Home]({{ '/' | relative_url }})
+
