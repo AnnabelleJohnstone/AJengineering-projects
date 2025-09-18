@@ -8,4 +8,4 @@ title: University Projects
 Work in progress!  
 Soon this page will feature all my engineering projects from university.
 
-[← Back to Home](/)
+[← Back to Home]({{ '/home/' | relative_url }})
