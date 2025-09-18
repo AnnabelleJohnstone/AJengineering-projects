@@ -26,4 +26,5 @@ My technical skills include:
 - Engineering societies  
 - Volunteering  
 
-[← Back to Home]{{ '/' | relative_url }}
+[← Back to Home]({{ '/' | relative_url }})
+
