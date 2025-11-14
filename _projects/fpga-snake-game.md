@@ -9,16 +9,16 @@ A complete hardware implementation of the classic Snake game running on a Basys 
   <img src="https://github.com/user-attachments/assets/b8562e72-e7ed-45bb-83af-8c723c2a7584" width="600" alt="FPGA Snake Game Banner">
 </p>
 
-## 🌸✨ Features ✨🌸
+## Features 
 
-- 💕 **Full hardware implementation** — no CPU, just pure digital logic magic!
-- 🌈 **VGA display** (640×480) with smooth, colorful graphics
-- 🐍 **Snake movement, growth, & food spawning**
-- 🍬 **Random food** using an LFSR
-- 🌟 **Sweet modular Verilog design**
-- 🎮 **Button controls** using the Basys 3 push-buttons
+- **Full hardware implementation** — no CPU, just pure digital logic magic!
+- **VGA display** (640×480) with smooth, colorful graphics
+- **Snake movement, growth, & food spawning**
+- **Random food** using an LFSR
+- **Sweet modular Verilog design**
+- **Button controls** using the Basys 3 push-buttons
 
-## 💞 Project Structure 💞
+##  Project Structure 
 - **`vga_controller.v`** → Handles VGA timing 
 - **`snake_logic.v`** → The heart of the game (snake brain )
 - **`lfsr_random.v`** → Pseudo-random 
@@ -28,7 +28,7 @@ A complete hardware implementation of the classic Snake game running on a Basys 
 - **`top.v / topwrapper.v`** → Everything comes together 
 
 
-## 🎮 How to Play 🎮
+##  How to Play 
 
 Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! Use the buttons to move your little snake:
 
@@ -37,15 +37,15 @@ Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! 
 - ⬅️ **BTNL** – Left
 - ➡️ **BTNR** – Right
 
-## 🌷 Setup Instructions 🌷
+##  Setup Instructions 
 
 1. **Open** the project in Vivado
-2. **Synthesize** ✨
-3. **Generate** the bitstream 💎
-4. **Program** the Basys 3 board 🌸
-5. **Plug in** a VGA display 💗
+2. **Synthesize** 
+3. **Generate** the bitstream 
+4. **Program** the Basys 3 board 
+5. **Plug in** a VGA display 
 
-## 🔧 Technical Highlights
+##  Technical Highlights
 - **Full hardware implementation** - No microprocessor, pure digital logic
 - **VGA display controller** - 640×480 resolution with real-time graphics rendering
 - **Modular Verilog design** - Hierarchical state machines and clean architecture
@@ -53,14 +53,14 @@ Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! 
 - **7-segment score display** - Real-time scoring system with visual feedback
 - **Button debouncing** - Reliable input handling for smooth gameplay
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 - **Hardware**: Xilinx Basys 3 FPGA (Artix-7)
 - **Language**: Verilog/SystemVerilog
 - **Development**: Vivado Design Suite 2022.x
 - **Protocols**: VGA, GPIO, custom state machines
 - **Simulation**: Vivado Simulator for verification
 
-## 🎯 Learning Outcomes & Skills
+## Learning Outcomes & Skills
 - Advanced FPGA design principles and best practices
 - VGA timing generation and video signal protocols
 - Complex state machine design and optimization techniques
@@ -68,7 +68,7 @@ Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! 
 - Real-time system constraints and performance optimization
 - Digital logic verification and testing methodologies
 
-## 📊 Key Features
+##  Key Features
 - Real-time 60 FPS VGA output at 640x480 resolution
 - Smooth snake movement with responsive controls
 - Random food generation using 8-bit LFSR
