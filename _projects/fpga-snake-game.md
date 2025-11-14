@@ -1,7 +1,6 @@
 # 🎀💗 FPGA Snake Game – Basys 3 Edition 💗🎀
 
-[← Back to University Projects](/university-projects.md)({{ '/' | relative_url }})
-
+[← Back to University Projects](/university-projects.md)
 ## Project Overview
 A complete hardware implementation of the classic Snake game running on a Basys 3 FPGA board. This project demonstrates advanced digital design concepts using pure Verilog without any CPU, featuring real-time VGA graphics and interactive gameplay.
 
@@ -76,4 +75,4 @@ Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! 
 - Progressive difficulty with increasing speed
 - Visual and numerical score display
 
-[View on GitHub](https://github.com/AnnabelleJohnstone/FPGA--Snake-game-for-basys-3-board-) | [← Back to University Projects](/university-projects.md)({{ '/' | relative_url }})
+[View on GitHub](https://github.com/AnnabelleJohnstone/FPGA--Snake-game-for-basys-3-board-) | [← Back to University Projects](/university-projects.md)
