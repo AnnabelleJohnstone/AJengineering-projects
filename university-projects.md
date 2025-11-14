@@ -10,7 +10,7 @@ Here are some of the key engineering projects I worked on during my university s
 
 ##  Featured Projects
 
-### [FPGA Snake Game](/projects/fpga-snake-game) 
+### [FPGA Snake Game](/projects/fpga-snake-game.md) 
 A complete hardware implementation of the classic Snake game on Basys 3 FPGA with VGA output and real-time graphics. Features modular Verilog design, LFSR random generation, and hierarchical state machines.
 
 
