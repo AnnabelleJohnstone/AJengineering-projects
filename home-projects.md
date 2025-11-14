@@ -11,7 +11,7 @@ Personal projects and software development work done outside of university cours
 ### 🧋 [Bubble Tea Finder](/_projects/bubble-tea-finder.md)
 A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Features interactive maps, swipe gestures, and local favorites storage.
 
-## 🛠️ Technologies & Skills
+## Technologies & Skills
 
 - **Web Development** - HTML, CSS, JavaScript, APIs
 - **Mobile-First Design** - Responsive web apps
