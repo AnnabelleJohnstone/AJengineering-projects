@@ -17,9 +17,9 @@ A complete hardware implementation of the classic Snake game on Basys 3 FPGA wit
 
 ##  Technical Skills Developed
 
-- **FPGA Design** - Verilog, VHDL, Vivado, Quartus, VGA timing
+- **FPGA Design** - Verilog, VHDL, Vivado, VGA timing
 - **Embedded Systems** - ARM Cortex, Raspberry Pi, Arduino, real-time OS
-- **Communication Protocols** - I2C, SPI, UART, VGA, custom wireless
+- **Communication Protocols** - UART, VGA, custom wireless
 - **Hardware Design** - PCB design, signal integrity, power management
 - **Software Integration** - C/C++, Python, embedded Linux, OpenCV
 
