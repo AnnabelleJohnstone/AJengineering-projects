@@ -5,7 +5,7 @@ title: Bubble Tea Finder
 
 # 🧋 Bubble Tea Finder
 
-[← Back to University Projects](../university-projects.md)
+[← Back to University Projects](../university-projects.html)
 
 ## Project Overview
 A playful swipe-to-save web app for finding nearby bubble tea cafes and cafes. Built with vanilla JavaScript and Google Maps APIs, featuring intuitive swipe gestures and real-time location detection.
