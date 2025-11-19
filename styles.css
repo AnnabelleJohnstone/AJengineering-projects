@@ -57,7 +57,7 @@ h2 {
 /* Lists */
 ul {
   margin-left: 1.5em;
-  list-style: "🌸 "; /* cute flower bullets */
+  list-style: disc;
 }
 
 /* Links */
