@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+
+  <!-- Fixed CSS reference -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 </head>
-<body>
-  <!-- Navigation -->
   <nav class="navbar">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/about/' | relative_url }}">About Me</a>
@@ -15,12 +15,10 @@
     <a href="{{ '/home-projects/' | relative_url }}">At Home Projects</a>
   </nav>
 
-  <!-- Main content -->
   <div class="container">
     {{ content }}
   </div>
 
-  <!-- Optional footer -->
   <footer class="footer">
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }} — Built with Jekyll & GitHub Pages</p>
   </footer>
