@@ -45,12 +45,4 @@ A playful swipe-to-save web app for finding nearby bubble tea cafes and cafes. B
 5. **User Action** → Swipe gestures save/dismiss cafes
 6. **Local Storage** → Persists favorites between sessions
 
-## Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/bubble-tea-finder.git
-cd bubble-tea-finder
-
-# Open in browser
-open index.html
