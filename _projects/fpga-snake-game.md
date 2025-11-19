@@ -5,7 +5,7 @@ title: FPGA Snake Game – Basys 3 Edition
 
 # 🎀 FPGA Snake Game – Basys 3 Edition 🎀
 
-[← Back to University Projects](../university-projects.html)
+[← Back to University Projects]({{ '/university-projects/' | relative_url }})
 ## Project Overview
 A complete hardware implementation of the classic Snake game running on a Basys 3 FPGA board. This project demonstrates advanced digital design concepts using pure Verilog without any CPU, featuring real-time VGA graphics and interactive gameplay.
 
