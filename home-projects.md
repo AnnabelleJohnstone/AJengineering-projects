@@ -8,7 +8,7 @@ Personal projects and software development work done outside of university cours
 
 ## Featured Projects
 
-### 🧋 [Bubble Tea Finder](/_projects/bubble-tea-finder.md)
+###  [Bubble Tea Finder](/_projects/bubble-tea-finder.md)
 A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Features interactive maps, swipe gestures, and local favorites storage.
 
 ## Technologies & Skills
