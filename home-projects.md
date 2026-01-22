@@ -9,7 +9,7 @@ Personal projects and software development work done outside of university cours
 ## Featured Projects
 
 ###  [Bubble Tea Finder](/_projects/bubble-tea-finder.md)
-A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Features interactive maps, swipe gestures, and local favorites storage.
+A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Features interactive maps, swipe gestures, and local favourites storage.
 
 ## Technologies & Skills
 
@@ -21,34 +21,8 @@ A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Feat
 
 ---
 
-[← Back to Home]({{ '/' | relative_url }})
 
----
-layout: default
-title: At Home Projects
----
-
-# At Home Projects
-
-Personal projects and software development work done outside of university coursework.
-
-## Featured Projects
-
-###  Bubble Tea Finder
-A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Features interactive maps, swipe gestures, and local favorites storage.
-
-**Technologies & Skills**
-* Web Development - HTML, CSS, JavaScript, APIs
-* Mobile-First Design - Responsive web apps
-* Cloud Services - Google Maps API, Places API
-* Frontend Libraries - Hammer.js, interactive UI
-* Data Management - LocalStorage, geolocation
-
-[View Project]({{ '/at-home-projects/bubble-tea-finder/' | relative_url }}) | [View Code](https://github.com/AnnabelleJohnstone/BubbleTeaCafeFinder)
-
----
-
-###  DIY Smart Tracking Robot Car
+###  [DIY Smart Tracking Robot Car](/_projects/personal-projects/bubble-tea-finder.md)
 Custom-built autonomous line-following robot with obstacle avoidance. Designed power system, calculated component values, and implemented PID control algorithms for smooth navigation.
 
 **Technologies & Skills**
@@ -59,8 +33,8 @@ Custom-built autonomous line-following robot with obstacle avoidance. Designed p
 * Problem Solving - Hardware/software debugging
 
 
-[View Project]({{ '/at-home-projects/robot-car/' | relative_url }})
- [← Back to Home]({{ '/' | relative_url }})
+
+[← Back to Home]({{ '/' | relative_url }})
 
 
 
