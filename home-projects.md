@@ -25,13 +25,15 @@ A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Feat
 ###  [DIY Smart Tracking Robot Car](/_projects/robot-car.md)
 Custom-built autonomous line-following robot with obstacle avoidance. Designed power system, calculated component values, and implemented PID control algorithms for smooth navigation.
 
-**Technologies & Skills**
-* Circuit Design - Power distribution, component selection
-* Embedded Systems - Motor control, sensor integration
-* Electronics Engineering - Ohm's Law, current calculations
-* Programming - Control algorithms, PWM implementation
-* Problem Solving - Hardware/software debugging
+## Technologies & Skills
 
+- **Circuit Design** - Power distribution, component selection
+- **Embedded Systems** - Motor control, sensor integration
+- **Electronics Engineering**- Ohm's Law, current calculations
+- **Programming** - Control algorithms, PWM implementation
+- **Problem Solving** - Hardware/software debugging
+
+---
 
 
 [← Back to Home]({{ '/' | relative_url }})
