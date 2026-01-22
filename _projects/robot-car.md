@@ -4,7 +4,7 @@ title: DIY Smart Tracking Robot Car
 ---
 
 #  DIY Smart Tracking Robot Car
-[← Back to At Home Projects]({{ '/at-home-projects/' | relative_url }})
+[← Back to At Home Projects]({{ '/home-projects.md/' | relative_url }})
 
 
 ---
@@ -126,10 +126,10 @@ R = 240Ω
 - Handle stall current safely
 
 **L298N Specifications:**
-- ✅ Voltage range: 5-35V (6V nominal is compatible)
-- ✅ Current rating: 2A per channel (exceeds 800mA stall current)  
-- ✅ Logic voltage: 5V (matches microcontroller)
-- ✅ Built-in flyback diodes (motor protection)
+-  Voltage range: 5-35V (6V nominal is compatible)
+-  Current rating: 2A per channel (exceeds 800mA stall current)  
+-  Logic voltage: 5V (matches microcontroller)
+-  Built-in flyback diodes (motor protection)
 
 ### PWM Configuration
 
