@@ -19,23 +19,14 @@ title: DIY Smart Tracking Robot Car
 
 A fully autonomous line-following robot car with integrated obstacle avoidance. This project demonstrates practical application of electrical engineering principles, from power system design and component selection to embedded programming and PID control implementation.
 
-<div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 30px 0; border-left: 4px solid #667eea;">
-  <h3 style="margin-top: 0; color: #667eea;"> Project Highlights</h3>
-  <ul style="line-height: 1.8;">
-    <li><strong>Custom Power System Design</strong> - Calculated optimal battery configuration and current requirements</li>
-    <li><strong>Component Value Calculations</strong> - Applied Ohm's Law to determine resistor values for LEDs and sensors</li>
-    <li><strong>Motor Control Implementation</strong> - Programmed PWM-based speed control with H-bridge driver</li>
-    <li><strong>Sensor Integration</strong> - Calibrated IR and ultrasonic sensors for reliable navigation</li>
-  </ul>
-</div>
 
 ---
 
-## ⚡ Power System Engineering
+##  Power System Engineering
 
 ### Motor & Load Analysis
 
-The first step was analyzing the power requirements of all components to select an appropriate battery configuration.
+The first step was analysing the power requirements of all components to select an appropriate battery configuration.
 
 **Component Current Draw:**
 
@@ -213,22 +204,9 @@ def line_follow():
         search_for_line()
 ```
 
-### Obstacle Avoidance
 
-Ultrasonic sensor continuously monitors distance ahead:
 
-```python
-def obstacle_avoidance():
-    distance = measure_distance()
-    
-    if distance < 15:  # Less than 15cm
-        stop()
-        reverse(500)    # Back up 500ms
-        turn_right(90)  # Turn 90 degrees
-        resume_line_following()
-```
 
----
 
 ## Assembly Process
 
