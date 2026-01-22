@@ -22,7 +22,7 @@ A playful swipe-to-save app for finding nearby cafes with bubble tea theme. Feat
 ---
 
 
-###  [DIY Smart Tracking Robot Car](/_projects/personal-projects/bubble-tea-finder.md)
+###  [DIY Smart Tracking Robot Car](/_projects/robot-car.md)
 Custom-built autonomous line-following robot with obstacle avoidance. Designed power system, calculated component values, and implemented PID control algorithms for smooth navigation.
 
 **Technologies & Skills**
