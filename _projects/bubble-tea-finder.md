@@ -9,8 +9,8 @@ title: Bubble Tea Finder
 
 
 <div style="margin: 20px 0;">
-  <a href="https://annabellejohnstone.github.io/BubbleTeaCafeFinder" target="_blank" style="display: inline-block; padding: 10px 20px; background: #ff6b9d; color: white; text-decoration: none; border-radius: 5px; margin-right: 10px;">🚀 Live Demo</a>
-  <a href="https://github.com/AnnabelleJohnstone/BubbleTeaCafeFinder" target="_blank" style="display: inline-block; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 5px;">💻 View Code</a>
+  <a href="https://annabellejohnstone.github.io/BubbleTeaCafeFinder" target="_blank" style="display: inline-block; padding: 10px 20px; background: #ff6b9d; color: white; text-decoration: none; border-radius: 5px; margin-right: 10px;"> Live Demo</a>
+  <a href="https://github.com/AnnabelleJohnstone/BubbleTeaCafeFinder" target="_blank" style="display: inline-block; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 5px;"> View Code</a>
 </div>
 
 ## Project Overview
