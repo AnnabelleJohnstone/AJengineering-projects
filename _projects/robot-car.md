@@ -8,6 +8,12 @@ title: DIY Smart Tracking Robot Car
 
 
 ---
+##  Demo Video
+
+<video width="100%" controls style="max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <source src="{{ 'assests/IMG_3191 (1).MOV' | relative_url }}" type="video/mp4">     
+  Your browser does not support the video tag.
+</video>
 
 ## Overview
 
