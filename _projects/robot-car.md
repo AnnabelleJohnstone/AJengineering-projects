@@ -6,12 +6,6 @@ title: DIY Smart Tracking Robot Car
 #  DIY Smart Tracking Robot Car
 [← Back to At Home Projects]({{ '/at-home-projects/' | relative_url }})
 
-<div style="display: flex; gap: 15px; margin: 30px 0; flex-wrap: wrap;">
-  <span style="background: #667eea; color: white; padding: 8px 15px; border-radius: 20px; font-size: 14px;">🔌 Electronics</span>
-  <span style="background: #667eea; color: white; padding: 8px 15px; border-radius: 20px; font-size: 14px;">🤖 Robotics</span>
-  <span style="background: #667eea; color: white; padding: 8px 15px; border-radius: 20px; font-size: 14px;">⚡ Circuit Design</span>
-  <span style="background: #667eea; color: white; padding: 8px 15px; border-radius: 20px; font-size: 14px;">💻 Arduino</span>
-</div>
 
 ---
 
@@ -20,7 +14,7 @@ title: DIY Smart Tracking Robot Car
 A fully autonomous line-following robot car with integrated obstacle avoidance. This project demonstrates practical application of electrical engineering principles, from power system design and component selection to embedded programming and PID control implementation.
 
 <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 30px 0; border-left: 4px solid #667eea;">
-  <h3 style="margin-top: 0; color: #667eea;">🎯 Project Highlights</h3>
+  <h3 style="margin-top: 0; color: #667eea;"> Project Highlights</h3>
   <ul style="line-height: 1.8;">
     <li><strong>Custom Power System Design</strong> - Calculated optimal battery configuration and current requirements</li>
     <li><strong>Component Value Calculations</strong> - Applied Ohm's Law to determine resistor values for LEDs and sensors</li>
@@ -69,7 +63,7 @@ Runtime = 2000mAh / 510mA ≈ 3.9 hours
 
 ---
 
-## 🔧 Resistor Calculations
+##  Resistor Calculations
 
 ### LED Current Limiting
 
@@ -115,7 +109,7 @@ R = 240Ω
 
 ---
 
-## 🔌 Motor Driver Selection
+##  Motor Driver Selection
 
 ### L298N Dual H-Bridge Analysis
 
@@ -146,7 +140,7 @@ This provides smooth acceleration and prevents annoying motor sounds during oper
 
 ---
 
-## 📐 Circuit Architecture
+##  Circuit Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -230,7 +224,7 @@ def obstacle_avoidance():
 
 ---
 
-## 🛠️ Assembly Process
+## Assembly Process
 
 ### 1. Power System Verification
 - Verified 6V output from battery pack with multimeter
@@ -240,11 +234,11 @@ def obstacle_avoidance():
 ### 2. Component Mounting
 - Secured motors with proper alignment (tested for straight-line motion)
 - Mounted IR sensors at optimal height (5mm above surface)
-- Positioned ultrasonic sensor at front center
+- Positioned ultrasonic sensor at front centre
 
 ### 3. Wiring & Organization
-- Used color-coded wires: Red (power), Black (ground), Yellow (signal)
-- Kept wire runs short to minimize interference
+- Used colour-coded wires: Red (power), Black (ground), Yellow (signal)
+- Kept wire runs short to minimise interference
 - Added heat shrink tubing to exposed connections
 
 ### 4. Sensor Calibration
@@ -259,7 +253,7 @@ def obstacle_avoidance():
 
 ---
 
-## ⚠️ Challenges & Engineering Solutions
+## Challenges & Engineering Solutions
 
 <div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #ffc107;">
   <h3 style="margin-top: 0; color: #856404;">Challenge 1: Inconsistent Line Detection</h3>
@@ -302,7 +296,7 @@ def obstacle_avoidance():
 
 ---
 
-## 📊 Technical Skills Demonstrated
+##  Technical Skills Demonstrated
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
   
@@ -327,7 +321,7 @@ def obstacle_avoidance():
   </div>
   
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;">💻 Programming</h3>
+    <h3 style="color: #667eea; margin-top: 0;"> Programming</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Arduino C/C++</li>
       <li>Control algorithms</li>
@@ -337,7 +331,7 @@ def obstacle_avoidance():
   </div>
   
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;">📊 Problem Solving</h3>
+    <h3 style="color: #667eea; margin-top: 0;"> Problem Solving</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Systematic debugging</li>
       <li>Performance optimization</li>
@@ -350,31 +344,31 @@ def obstacle_avoidance():
 
 ---
 
-## 🎓 Key Takeaways
+## Key Takeaways
 
 This project provided hands-on experience with fundamental electrical engineering concepts:
 
 - **Ohm's Law in Practice**: Applied V = IR calculations for real components with measurable results
 - **Motor Control Theory**: Understood H-bridge operation and PWM duty cycle effects
-- **Sensor Calibration**: Learned importance of environmental testing and threshold tuning  
+- **Sensor Calibration**: Learned the importance of environmental testing and threshold tuning  
 - **System Integration**: Developed skills in combining mechanical, electrical, and software subsystems
-- **Debugging Methodology**: Practiced systematic troubleshooting from symptom to root cause
+- **Debugging Methodology**: Practised systematic troubleshooting from symptom to root cause
 
 The most valuable lesson was that theoretical calculations provide a starting point, but real-world testing and iteration are essential for robust system performance.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] **Bluetooth Control Module** - Add HC-05 for wireless command and telemetry
 - [ ] **LiPo Battery Upgrade** - Implement 7.4V 2S LiPo with charging circuit for higher performance
 - [ ] **Advanced Navigation** - Upgrade to encoder-based odometry for precise positioning
-- [ ] **Mobile App Interface** - Develop Android/iOS app for parameter tuning and data visualization
+- [ ] **Mobile App Interface** - Develop Android/iOS app for parameter tuning and data visualisation
 - [ ] **Speed Optimization** - Implement PID control for smoother acceleration curves
 
 ---
 
-## 📦 Bill of Materials
+##  Bill of Materials
 
 | Component | Specification | Qty | Unit Cost | Purpose |
 |-----------|--------------|-----|-----------|---------|
