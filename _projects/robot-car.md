@@ -100,7 +100,7 @@ Direction pins (D6, D7, D8, D11) → Motor Driver
 ## Key Features
 
 - **Autonomous Line Following** - IR sensors detect track boundaries and adjust steering
-- **Obstacle Avoidance** - Ultrasonic sensor measures distance and triggers avoidance maneuvers
+- **Obstacle Avoidance** - Ultrasonic sensor measures distance and triggers avoidance manoeuvres
 - **Variable Speed Control** - PWM signals control motor speed for smooth turns
 - **Battery Monitoring** - Voltage divider circuit monitors battery level
 - **Modular Design** - Easy component swapping for experimentation
@@ -168,11 +168,11 @@ if (distance < 15cm):
 
 ## Technical Skills Demonstrated
 
-- ⚡ **Circuit Design** - Calculated component values and designed power distribution
-- 🔧 **PCB Assembly** - Soldered components and organized wiring
-- 💻 **Embedded Programming** - Wrote control algorithms and sensor interfaces
-- 📊 **Problem Solving** - Debugged hardware and software issues systematically
-- 🔋 **Power Management** - Optimized current draw for extended runtime
+-  **Circuit Design** - Calculated component values and designed power distribution
+-  **PCB Assembly** - Soldered components and organized wiring
+-  **Embedded Programming** - Wrote control algorithms and sensor interfaces
+-  **Problem Solving** - Debugged hardware and software issues systematically
+-  **Power Management** - Optimised current draw for extended runtime
 
 ## Learning Outcomes
 
@@ -182,24 +182,8 @@ if (distance < 15cm):
 - Hands-on debugging of electromechanical systems
 - Foundation for future robotics projects
 
-## Future Improvements
 
-- 🔄 Add Bluetooth module for remote control capability
-- 📡 Implement wireless telemetry for real-time debugging
-- 🧠 Upgrade to more sophisticated path planning algorithms
-- 🔋 Switch to rechargeable LiPo battery with charging circuit
-- 📱 Create mobile app for parameter tuning and monitoring
 
-## Video Demo
-
-*[Video demonstration would go here]*
-
-## Source Files
-
-- Circuit schematic (PDF)
-- Control code (Arduino sketch)
-- Assembly instructions
-- Calibration procedures
 
 ---
 
