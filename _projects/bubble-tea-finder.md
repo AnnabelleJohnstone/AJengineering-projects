@@ -5,7 +5,7 @@ title: Bubble Tea Finder
 
 # 🧋 Bubble Tea Finder
 
-[← Back to Home Projects]({{ '/home-projects/' | relative_url }})
+[← Back to Home Projects]({{ 'home-projects.md' | relative_url }})
 
 
 <div style="margin: 20px 0;">
