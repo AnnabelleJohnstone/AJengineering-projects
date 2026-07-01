@@ -305,7 +305,7 @@ $$
   </div>
 
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;">🔧 Hardware Skills</h3>
+    <h3> Hardware Skills</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>PCB assembly</li>
       <li>Soldering & wiring</li>
