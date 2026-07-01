@@ -20,6 +20,10 @@ Explore my academic projects on the [ University Projects]({{ '/university-proje
 See what I’ve built outside university on the [ At Home Projects]({{ '/home-projects/' | relative_url }}) page.
 
 
+## My Business
+Take a look at how i founded and run Catharina's Closet [Catharina's Closet]({{ '/Catharinas Closet/' | relative_url }}) page.
+
+
 
 
 
