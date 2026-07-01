@@ -249,7 +249,7 @@ def line_follow():
     <li>Positioned sensors closer to ground (reduced from 10mm to 5mm)</li>
   </ul>
   <p><strong>Result:</strong> 95% detection reliability across various lighting conditions.</p>
-</div>
+
 
 
   <h3>Challenge 2: Motor Speed Mismatch</h3>
@@ -262,7 +262,7 @@ def line_follow():
     <li>Implemented software compensation in motor control function</li>
   </ul>
   <p><strong>Result:</strong> Straight-line tracking within ±2cm over 1 meter.</p>
-</div>
+
 
 
   <h3>Challenge 3: Battery Voltage Drop</h3>
@@ -275,7 +275,7 @@ def line_follow():
     <li>Added low-battery warning (LED blinks when V < 4.5V)</li>
   </ul>
   <p><strong>Result:</strong> Consistent performance from 6V down to 4.5V threshold.</p>
-</div>
+
 
 ---
 
