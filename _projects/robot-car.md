@@ -4,7 +4,7 @@ title: DIY Smart Tracking Robot Car
 ---
 
 #  DIY Smart Tracking Robot Car
-[← Back to At Home Projects]({{ '/home-projects.md/' | relative_url }})
+[← Back to At Home Projects]({{ '/home-projects/' | relative_url }})
 
 
 ---
