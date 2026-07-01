@@ -3,7 +3,7 @@ layout: default
 title: FPGA Snake Game – Basys 3 Edition
 ---
 
-# 🎀 FPGA Snake Game – Basys 3 Edition 🎀
+# FPGA Snake Game – Basys 3 Edition 
 
 [← Back to University Projects]({{ '/university-projects/' | relative_url }})
 
