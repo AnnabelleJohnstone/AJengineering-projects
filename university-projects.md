@@ -26,6 +26,9 @@ A complete hardware implementation of the classic Snake game on Basys 3 FPGA wit
 ---
 
 ## [Wind Turbine Project for sustainable development].(/Projects/SD)
+## [Wind Turbine Project for sustainable development].(/Projects/Heat exchanger)
+## [Wind Turbine Project for sustainable development].(/Projects/SD)
+## [Wind Turbine Project for sustainable development].(/Projects/SD)
 [← Back to Home]({{ '/' | relative_url }})
 
 
