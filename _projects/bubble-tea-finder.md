@@ -3,7 +3,7 @@ layout: default
 title: Bubble Tea Finder
 ---
 
-# 🧋 Bubble Tea Finder
+# Bubble Tea  cafe Finder
 
 [← Back to Home Projects]({{ 'home-projects' | relative_url }})
 
