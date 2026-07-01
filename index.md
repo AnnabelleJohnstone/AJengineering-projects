@@ -11,13 +11,13 @@ I'm a Mechanical and Electrical Engineering student at The University of Edinbur
 ---
 
 ## About Me
-Learn more about my journey and interests on the [🌸 About Me]({{ '/about/' | relative_url }}) page.
+Learn more about my journey and interests on the [ About Me]({{ '/about/' | relative_url }}) page.
 
 ## University Projects
-Explore my academic projects on the [🎓 University Projects]({{ '/university-projects/' | relative_url }}) page.
+Explore my academic projects on the [ University Projects]({{ '/university-projects/' | relative_url }}) page.
 
 ## At Home Projects
-See what I’ve built outside university on the [🏡 At Home Projects]({{ '/home-projects/' | relative_url }}) page.
+See what I’ve built outside university on the [ At Home Projects]({{ '/home-projects/' | relative_url }}) page.
 
 
 
