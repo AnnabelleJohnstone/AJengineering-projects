@@ -6,19 +6,17 @@ title: DIY Smart Tracking Robot Car
 #  DIY Smart Tracking Robot Car
 [← Back to At Home Projects]({{ '/home-projects/' | relative_url }})
 
-
 ---
 ##  Demo Video
 
 <video width="100%" controls style="max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  <source src="{{ 'assests/IMG_3191 (1).MOV' | relative_url }}" type="video/mp4">     
+  <source src="{{ 'assests/IMG_3191 (1).MOV' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ## Overview
 
 A fully autonomous line-following robot car with integrated obstacle avoidance. This project demonstrates practical application of electrical engineering principles, from power system design and component selection to embedded programming and PID control implementation.
-
 
 ---
 
@@ -39,24 +37,24 @@ The first step was analysing the power requirements of all components to select 
 | **Total System Draw** | | | **510mA nominal** |
 
 **Peak Current Considerations:**
-- Motor stall current: 800mA per motor = 1.6A total
-- Safety margin: Added 200mA buffer
+- Motor stall current: 800mA per motor $\Rightarrow$ 1.6A total
+- Safety margin: added 200mA buffer
 - **Maximum expected draw: 1.8A**
 
 ### Battery Selection Rationale
 
 Selected **4× AA batteries in series (6V nominal)** because:
 
-1. **Voltage Matching**: 6V falls within the 3-6V motor operating range
-2. **Capacity**: Standard 2000mAh AA batteries provide approximately 4 hours of continuous operation
-3. **Availability**: Easy to source and replace
-4. **Cost**: Most economical solution for prototyping
+1. **Voltage Matching** — 6V falls within the 3–6V motor operating range
+2. **Capacity** — standard 2000mAh AA batteries provide approximately 4 hours of continuous operation
+3. **Availability** — easy to source and replace
+4. **Cost** — most economical solution for prototyping
 
 **Runtime Calculation:**
-```
-Runtime = Battery Capacity / Average Current Draw
-Runtime = 2000mAh / 510mA ≈ 3.9 hours
-```
+
+$$
+t_{\text{runtime}} = \frac{Q_{\text{battery}}}{I_{\text{avg}}} = \frac{2000\ \text{mAh}}{510\ \text{mA}} \approx 3.9\ \text{hours}
+$$
 
 ---
 
@@ -64,45 +62,59 @@ Runtime = 2000mAh / 510mA ≈ 3.9 hours
 
 ### LED Current Limiting
 
-To prevent LED burnout while ensuring adequate brightness, I calculated the required current-limiting resistors using Ohm's Law.
+To prevent LED burnout while ensuring adequate brightness, the required current-limiting resistor was calculated using Ohm's Law.
 
 **Given Parameters:**
-- Supply voltage (Vs): 6V
-- LED forward voltage (Vf): 2.0V (typical for red LEDs)
-- Desired LED current (If): 10mA (safe operating current)
+
+| Symbol | Description | Value |
+|--------|--------------|-------|
+| $V_s$ | Supply voltage | 6 V |
+| $V_f$ | LED forward voltage (typical red LED) | 2.0 V |
+| $I_f$ | Desired LED current | 10 mA |
 
 **Calculation:**
-```
-R = (Vs - Vf) / If
-R = (6V - 2.0V) / 0.010A
-R = 4V / 0.010A
-R = 400Ω
-```
 
-**Component Selection:** 470Ω resistors (closest standard value)
-- Actual current: (6V - 2V) / 470Ω = 8.5mA 
-- Power dissipation: I² × R = (0.0085)² × 470 = 0.034W
-- Selected 1/4W resistors (well within rating)
+$$
+R = \frac{V_s - V_f}{I_f} = \frac{6\,\text{V} - 2.0\,\text{V}}{0.010\,\text{A}} = \frac{4\,\text{V}}{0.010\,\text{A}} = 400\ \Omega
+$$
+
+**Component Selection:** $470\ \Omega$ resistors (closest standard value)
+
+$$
+I_{\text{actual}} = \frac{V_s - V_f}{R} = \frac{6\,\text{V} - 2\,\text{V}}{470\ \Omega} = 8.5\ \text{mA}
+$$
+
+$$
+P = I^2 R = (0.0085\,\text{A})^2 \times 470\ \Omega = 0.034\ \text{W}
+$$
+
+Selected $\tfrac{1}{4}\,\text{W}$ resistors — well within the power rating.
 
 ### IR Sensor Current Limiting
 
 IR LEDs require different forward voltages and currents for optimal range.
 
 **Given Parameters:**
-- Supply voltage (Vs): 6V  
-- IR LED forward voltage (Vf): 1.2V
-- Desired current (If): 20mA (optimal for detection range)
+
+| Symbol | Description | Value |
+|--------|--------------|-------|
+| $V_s$ | Supply voltage | 6 V |
+| $V_f$ | IR LED forward voltage | 1.2 V |
+| $I_f$ | Desired current | 20 mA |
 
 **Calculation:**
-```
-R = (6V - 1.2V) / 0.020A
-R = 4.8V / 0.020A  
-R = 240Ω
-```
 
-**Component Selection:** 220Ω resistors (nearest standard value)
-- Actual current: (6V - 1.2V) / 220Ω = 21.8mA 
-- Within acceptable ±10% tolerance for IR detection
+$$
+R = \frac{V_s - V_f}{I_f} = \frac{6\,\text{V} - 1.2\,\text{V}}{0.020\,\text{A}} = \frac{4.8\,\text{V}}{0.020\,\text{A}} = 240\ \Omega
+$$
+
+**Component Selection:** $220\ \Omega$ resistors (nearest standard value)
+
+$$
+I_{\text{actual}} = \frac{6\,\text{V} - 1.2\,\text{V}}{220\ \Omega} = 21.8\ \text{mA}
+$$
+
+This is within the acceptable $\pm 10\%$ tolerance for IR detection.
 
 ---
 
@@ -117,21 +129,22 @@ R = 240Ω
 - Handle stall current safely
 
 **L298N Specifications:**
--  Voltage range: 5-35V (6V nominal is compatible)
--  Current rating: 2A per channel (exceeds 800mA stall current)  
--  Logic voltage: 5V (matches microcontroller)
--  Built-in flyback diodes (motor protection)
+- Voltage range: 5–35V (6V nominal is compatible)
+- Current rating: 2A per channel (exceeds 800mA stall current)
+- Logic voltage: 5V (matches microcontroller)
+- Built-in flyback diodes (motor protection)
 
 ### PWM Configuration
 
 To achieve smooth speed control without audible motor whine:
 
-**PWM Frequency Selection:**
-```
-Target frequency: 20kHz (above human hearing range of 20Hz-20kHz)
-Duty cycle range: 0-100%
-Resolution: 8-bit (256 speed levels)
-```
+$$
+f_{\text{PWM}} = 20\ \text{kHz} \quad (\text{above human hearing range of } 20\,\text{Hz}\text{–}20\,\text{kHz})
+$$
+
+$$
+\text{Duty cycle} \in [0\%, 100\%], \qquad \text{Resolution} = 2^{8} = 256\ \text{speed levels}
+$$
 
 This provides smooth acceleration and prevents annoying motor sounds during operation.
 
@@ -167,15 +180,15 @@ This provides smooth acceleration and prevents annoying motor sounds during oper
 
 **Key Design Decisions:**
 
-1. **Voltage Regulation**: 5V regulator powers microcontroller for stable operation
-2. **Motor Driver**: Directly connected to battery for maximum power delivery
-3. **Sensor Power**: All sensors run on regulated 5V for consistent readings
-4. **PWM Lines**: D9, D10 for motor speed control
-5. **Direction Control**: D6, D7, D8, D11 for motor direction
+1. **Voltage Regulation** — 5V regulator powers microcontroller for stable operation
+2. **Motor Driver** — directly connected to battery for maximum power delivery
+3. **Sensor Power** — all sensors run on regulated 5V for consistent readings
+4. **PWM Lines** — D9, D10 for motor speed control
+5. **Direction Control** — D6, D7, D8, D11 for motor direction
 
 ---
 
-##Control Algorithm
+## Control Algorithm
 
 ### Line Following Logic
 
@@ -185,28 +198,26 @@ Implemented a simple but effective decision tree for line tracking:
 def line_follow():
     left = read_left_sensor()
     right = read_right_sensor()
-    
+
     if left == BLACK and right == WHITE:
         # Robot drifting right, correct left
         turn_left(correction_speed)
-        
+
     elif left == WHITE and right == BLACK:
         # Robot drifting left, correct right
         turn_right(correction_speed)
-        
+
     elif left == BLACK and right == BLACK:
         # On track, full speed ahead
         move_forward(max_speed)
-        
+
     else:
         # Lost the line, stop and search
         stop()
         search_for_line()
 ```
 
-
-
-
+---
 
 ## Assembly Process
 
@@ -250,9 +261,7 @@ def line_follow():
   </ul>
   <p><strong>Result:</strong> 95% detection reliability across various lighting conditions.</p>
 
-
-
-  <h3>Challenge 2: Motor Speed Mismatch</h3>
+<h3>Challenge 2: Motor Speed Mismatch</h3>
   <p><strong>Problem:</strong> Robot veered left despite sending identical PWM signals to both motors.</p>
   <p><strong>Root Cause:</strong> Manufacturing tolerances in DC motors causing speed variation.</p>
   <p><strong>Solution:</strong></p>
@@ -263,26 +272,28 @@ def line_follow():
   </ul>
   <p><strong>Result:</strong> Straight-line tracking within ±2cm over 1 meter.</p>
 
-
-
-  <h3>Challenge 3: Battery Voltage Drop</h3>
+<h3>Challenge 3: Battery Voltage Drop</h3>
   <p><strong>Problem:</strong> Robot slowed significantly as batteries depleted below 5V.</p>
   <p><strong>Root Cause:</strong> Fixed PWM values didn't compensate for lower supply voltage.</p>
   <p><strong>Solution:</strong></p>
   <ul>
     <li>Added voltage divider circuit to monitor battery level</li>
-    <li>Implemented voltage compensation algorithm: <code>PWM_adjusted = PWM_base × (6V / V_current)</code></li>
-    <li>Added low-battery warning (LED blinks when V < 4.5V)</li>
+    <li>Implemented voltage compensation algorithm (below)</li>
+    <li>Added low-battery warning (LED blinks when $V < 4.5\,\text{V}$)</li>
   </ul>
-  <p><strong>Result:</strong> Consistent performance from 6V down to 4.5V threshold.</p>
 
+$$
+\text{PWM}_{\text{adjusted}} = \text{PWM}_{\text{base}} \times \frac{6\,\text{V}}{V_{\text{current}}}
+$$
+
+  <p><strong>Result:</strong> Consistent performance from 6V down to 4.5V threshold.</p>
 
 ---
 
 ##  Technical Skills Demonstrated
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
-  
+
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <h3> Circuit Design</h3>
     <ul style="margin: 0; padding-left: 20px;">
@@ -292,7 +303,7 @@ def line_follow():
       <li>Load balancing</li>
     </ul>
   </div>
-  
+
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <h3 style="color: #667eea; margin-top: 0;">🔧 Hardware Skills</h3>
     <ul style="margin: 0; padding-left: 20px;">
@@ -302,7 +313,7 @@ def line_follow():
       <li>Component testing</li>
     </ul>
   </div>
-  
+
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <h3> Programming</h3>
     <ul style="margin: 0; padding-left: 20px;">
@@ -312,7 +323,7 @@ def line_follow():
       <li>PWM implementation</li>
     </ul>
   </div>
-  
+
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <h3> Problem Solving</h3>
     <ul style="margin: 0; padding-left: 20px;">
@@ -322,7 +333,7 @@ def line_follow():
       <li>Documentation</li>
     </ul>
   </div>
-  
+
 </div>
 
 ---
@@ -331,11 +342,11 @@ def line_follow():
 
 This project provided hands-on experience with fundamental electrical engineering concepts:
 
-- **Ohm's Law in Practice**: Applied V = IR calculations for real components with measurable results
-- **Motor Control Theory**: Understood H-bridge operation and PWM duty cycle effects
-- **Sensor Calibration**: Learned the importance of environmental testing and threshold tuning  
-- **System Integration**: Developed skills in combining mechanical, electrical, and software subsystems
-- **Debugging Methodology**: Practised systematic troubleshooting from symptom to root cause
+- **Ohm's Law in Practice** — applied $V = IR$ calculations for real components with measurable results
+- **Motor Control Theory** — understood H-bridge operation and PWM duty cycle effects
+- **Sensor Calibration** — learned the importance of environmental testing and threshold tuning
+- **System Integration** — developed skills in combining mechanical, electrical, and software subsystems
+- **Debugging Methodology** — practised systematic troubleshooting from symptom to root cause
 
 The most valuable lesson was that theoretical calculations provide a starting point, but real-world testing and iteration are essential for robust system performance.
 
@@ -343,11 +354,11 @@ The most valuable lesson was that theoretical calculations provide a starting po
 
 ##  Future Enhancements
 
--  **Bluetooth Control Module** - Add HC-05 for wireless command and telemetry
--  **LiPo Battery Upgrade** - Implement 7.4V 2S LiPo with charging circuit for higher performance
--  **Advanced Navigation** - Upgrade to encoder-based odometry for precise positioning
--  **Mobile App Interface** - Develop Android/iOS app for parameter tuning and data visualisation
--  **Speed Optimization** - Implement PID control for smoother acceleration curves
+- **Bluetooth Control Module** — add HC-05 for wireless command and telemetry
+- **LiPo Battery Upgrade** — implement 7.4V 2S LiPo with charging circuit for higher performance
+- **Advanced Navigation** — upgrade to encoder-based odometry for precise positioning
+- **Mobile App Interface** — develop Android/iOS app for parameter tuning and data visualisation
+- **Speed Optimization** — implement PID control for smoother acceleration curves
 
 ---
 
@@ -370,6 +381,6 @@ The most valuable lesson was that theoretical calculations provide a starting po
 
 ---
 
-<div 
-  <a href="{{ '/at-home-projects/' | relative_url }}"">← Back to At Home Projects</a>
+<div>
+  <a href="{{ '/at-home-projects/' | relative_url }}">← Back to At Home Projects</a>
 </div>
