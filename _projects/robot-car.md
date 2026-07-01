@@ -80,7 +80,7 @@ R = 400Ω
 ```
 
 **Component Selection:** 470Ω resistors (closest standard value)
-- Actual current: (6V - 2V) / 470Ω = 8.5mA ✓
+- Actual current: (6V - 2V) / 470Ω = 8.5mA 
 - Power dissipation: I² × R = (0.0085)² × 470 = 0.034W
 - Selected 1/4W resistors (well within rating)
 
@@ -252,7 +252,7 @@ def line_follow():
 </div>
 
 
-  <h3 style="margin-top: 0; color: #721c24;">Challenge 2: Motor Speed Mismatch</h3>
+  <h3>Challenge 2: Motor Speed Mismatch</h3>
   <p><strong>Problem:</strong> Robot veered left despite sending identical PWM signals to both motors.</p>
   <p><strong>Root Cause:</strong> Manufacturing tolerances in DC motors causing speed variation.</p>
   <p><strong>Solution:</strong></p>
@@ -265,7 +265,7 @@ def line_follow():
 </div>
 
 
-  <h3 style="margin-top: 0; color: #0c5460;">Challenge 3: Battery Voltage Drop</h3>
+  <h3>Challenge 3: Battery Voltage Drop</h3>
   <p><strong>Problem:</strong> Robot slowed significantly as batteries depleted below 5V.</p>
   <p><strong>Root Cause:</strong> Fixed PWM values didn't compensate for lower supply voltage.</p>
   <p><strong>Solution:</strong></p>
@@ -284,7 +284,7 @@ def line_follow():
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
   
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;"> Circuit Design</h3>
+    <h3> Circuit Design</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Power system analysis</li>
       <li>Component value calculations</li>
@@ -304,7 +304,7 @@ def line_follow():
   </div>
   
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;"> Programming</h3>
+    <h3> Programming</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Arduino C/C++</li>
       <li>Control algorithms</li>
@@ -314,7 +314,7 @@ def line_follow():
   </div>
   
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;"> Problem Solving</h3>
+    <h3> Problem Solving</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Systematic debugging</li>
       <li>Performance optimization</li>
@@ -343,11 +343,11 @@ The most valuable lesson was that theoretical calculations provide a starting po
 
 ##  Future Enhancements
 
-- [ ] **Bluetooth Control Module** - Add HC-05 for wireless command and telemetry
-- [ ] **LiPo Battery Upgrade** - Implement 7.4V 2S LiPo with charging circuit for higher performance
-- [ ] **Advanced Navigation** - Upgrade to encoder-based odometry for precise positioning
-- [ ] **Mobile App Interface** - Develop Android/iOS app for parameter tuning and data visualisation
-- [ ] **Speed Optimization** - Implement PID control for smoother acceleration curves
+-  **Bluetooth Control Module** - Add HC-05 for wireless command and telemetry
+-  **LiPo Battery Upgrade** - Implement 7.4V 2S LiPo with charging circuit for higher performance
+-  **Advanced Navigation** - Upgrade to encoder-based odometry for precise positioning
+-  **Mobile App Interface** - Develop Android/iOS app for parameter tuning and data visualisation
+-  **Speed Optimization** - Implement PID control for smoother acceleration curves
 
 ---
 
