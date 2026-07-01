@@ -101,7 +101,7 @@ R = 240Ω
 ```
 
 **Component Selection:** 220Ω resistors (nearest standard value)
-- Actual current: (6V - 1.2V) / 220Ω = 21.8mA ✓
+- Actual current: (6V - 1.2V) / 220Ω = 21.8mA 
 - Within acceptable ±10% tolerance for IR detection
 
 ---
@@ -175,7 +175,7 @@ This provides smooth acceleration and prevents annoying motor sounds during oper
 
 ---
 
-## 🎮 Control Algorithm
+##Control Algorithm
 
 ### Line Following Logic
 
@@ -239,8 +239,7 @@ def line_follow():
 
 ## Challenges & Engineering Solutions
 
-<div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #ffc107;">
-  <h3 style="margin-top: 0; color: #856404;">Challenge 1: Inconsistent Line Detection</h3>
+<h3>Challenge 1: Inconsistent Line Detection</h3>
   <p><strong>Problem:</strong> IR sensors gave false readings under fluorescent lighting and near windows.</p>
   <p><strong>Root Cause:</strong> Ambient light interference overwhelming IR LED signal.</p>
   <p><strong>Solution:</strong></p>
@@ -252,7 +251,7 @@ def line_follow():
   <p><strong>Result:</strong> 95% detection reliability across various lighting conditions.</p>
 </div>
 
-<div style="background: #f8d7da; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #dc3545;">
+
   <h3 style="margin-top: 0; color: #721c24;">Challenge 2: Motor Speed Mismatch</h3>
   <p><strong>Problem:</strong> Robot veered left despite sending identical PWM signals to both motors.</p>
   <p><strong>Root Cause:</strong> Manufacturing tolerances in DC motors causing speed variation.</p>
@@ -265,7 +264,7 @@ def line_follow():
   <p><strong>Result:</strong> Straight-line tracking within ±2cm over 1 meter.</p>
 </div>
 
-<div style="background: #d1ecf1; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #17a2b8;">
+
   <h3 style="margin-top: 0; color: #0c5460;">Challenge 3: Battery Voltage Drop</h3>
   <p><strong>Problem:</strong> Robot slowed significantly as batteries depleted below 5V.</p>
   <p><strong>Root Cause:</strong> Fixed PWM values didn't compensate for lower supply voltage.</p>
@@ -285,7 +284,7 @@ def line_follow():
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
   
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: #667eea; margin-top: 0;">⚡ Circuit Design</h3>
+    <h3 style="color: #667eea; margin-top: 0;"> Circuit Design</h3>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Power system analysis</li>
       <li>Component value calculations</li>
@@ -371,6 +370,6 @@ The most valuable lesson was that theoretical calculations provide a starting po
 
 ---
 
-<div style="text-align: center; margin: 40px 0;">
-  <a href="{{ '/at-home-projects/' | relative_url }}" style="display: inline-block; padding: 12px 30px; background: #667eea; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">← Back to At Home Projects</a>
+<div 
+  <a href="{{ '/at-home-projects/' | relative_url }}"">← Back to At Home Projects</a>
 </div>
