@@ -13,6 +13,9 @@ I'm a Mechanical and Electrical Engineering student at The University of Edinbur
 ## About Me
 Learn more about my journey and interests on the [ About Me]({{ '/about/' | relative_url }}) page.
 
+## Internships
+See my industry experience and placements on the [ Internships]({{ '/internships/' | relative_url }}) page.
+
 ## University Projects
 Explore my academic projects on the [ University Projects]({{ '/university-projects/' | relative_url }}) page.
 
