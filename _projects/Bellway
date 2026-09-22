@@ -1,1 +1,51 @@
+---
+layout: default
+title: Bellway Homes Internship
+permalink: /_projects/bellway/
+---
 
+# Bellway Homes — Engineering Internship
+
+**Role:** Engineering & Energy Performance Intern  
+**Company:** Bellway Homes (Scotland East)  
+**Location:** Edinburgh / East Lothian, Scotland  
+
+---
+
+## Key Projects & Reports
+
+### 1. Solar PV Feasibility & Benefit Analysis
+A comprehensive technical, financial, and marketing evaluation of integrating solar PV with Air Source Heat Pumps (ASHP) across standard Bellway house types.
+
+* 📄 **[Open PDF Document directly in browser]({{ '/assets/docs/Bellway_PV_Feasibility_Study.pdf' | relative_url }})**
+* 📖 **[Read Web Executive Summary & Key Findings →]({{ '/internships/bellway/pv-feasibility/' | relative_url }})**
+
+#### Embedded PDF Report
+Below is the full feasibility report available to view directly on this page:
+
+<iframe 
+  src="{{ '/assets/docs/Bellway_PV_Feasibility_Study.pdf' | relative_url }}" 
+  width="100%" 
+  height="700px" 
+  style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assets/docs/Bellway_PV_Feasibility_Study.pdf' | relative_url }}">download the PDF here</a>.</p>
+</iframe>
+
+---
+
+### 2. [Second Bellway Project Title]
+*Brief description of another project completed during your Bellway internship (e.g., SAP Assessment Audit, ASHP COP Performance Optimisation, Site Drainage Analysis).*
+
+* 📄 **[Open Project Document (PDF)]({{ '/assets/docs/Bellway_Project_2.pdf' | relative_url }})**
+* 📖 **[Read Project Details →]({{ '/internships/bellway/project-2/' | relative_url }})**
+
+---
+
+### 3. [Third Bellway Project Title]
+*Brief description of a third project or deliverable.*
+
+* 📄 **[Open Project Document (PDF)]({{ '/assets/docs/Bellway_Project_3.pdf' | relative_url }})**
+
+---
+
+[← Back to All Internships]({{ '/internships/' | relative_url }})
