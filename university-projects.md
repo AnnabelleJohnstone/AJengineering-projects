@@ -1,7 +1,7 @@
 ---
 layout: default
 title: University Projects
-permalink: /projects/
+permalink: /uni-projects/
 ---
 
 # University Projects
