@@ -17,7 +17,7 @@ Learn more about my journey and interests on the [About Me]({{ '/about/' | relat
 See my industry experience and placements on the [Internships]({{ '/internships/' | relative_url }}) page.
 
 ## University Projects
-Explore my academic projects on the [University Projects]({{ '/projects/' | relative_url }}) page.
+Explore my academic projects on the [University Projects]({{ '/uni-projects/' | relative_url }}) page.
 
 ## At Home Projects
 See what I’ve built outside university on the [At Home Projects]({{ '/home-projects/' | relative_url }}) page.
