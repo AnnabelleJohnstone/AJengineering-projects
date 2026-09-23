@@ -25,3 +25,5 @@ Below is an overview of my professional internship experiences and engineering p
 **Focus:** [Brief summary of responsibilities or key focus areas].
 
 * **[View Details & Projects →]({{ '/internships/future-internship/' | relative_url }})**
+
+[← Back to Home]({{ '/' | relative_url }})
