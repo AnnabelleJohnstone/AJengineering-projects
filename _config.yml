@@ -14,9 +14,9 @@ url: "https://annabellejohnstone.github.io"
 #  Optional: show these in the default minima header nav
 header_pages:
   - about.md
-  - university-projects.md
+  - uni-projects.md
   - home-projects.md
-  - Catharina's Closet.md
+  - catharinas-closet.md
 
 #  Social links (replace placeholders with your real usernames)
 github_username: AnnabelleJohnstone
