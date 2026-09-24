@@ -12,20 +12,18 @@ Here is an overview of the key engineering projects and academic coursework comp
 
 ## Featured Academic Projects
 
-### [FPGA Snake Game]({{ '/projects/fpga-snake-game' | relative_url }})
+### [FPGA Snake Game(1st Class)]({{ '/projects/fpga-snake-game' | relative_url }})
 A complete hardware implementation of the classic Snake game on a Basys 3 FPGA with VGA output and real-time graphics. Features modular Verilog design, LFSR random generation, and hierarchical state machines.
 
-### [Sustainable Development (SD)]({{ '/projects/SD' | relative_url }})
-Project focusing on sustainable engineering principles, life-cycle analysis, and renewable technology integration (including wind turbine design).
 
-### [Heat Exchanger & Fluid Mechanics Analysis]({{ '/projects/heat-exchanger/' | relative_url }})
+### [Heat Exchanger & Fluid Mechanics Analysis(1st Class)]({{ '/projects/heat-exchanger/' | relative_url }})
 Thermal fluids and fluid mechanics project evaluating dual centrifugal pump parallel networks, affinity laws, and system head curves.
 
 ### [Engineering Action Site Visit (1st Class)]({{ '/projects/engineering-action-site-visit/' | relative_url }})
 Practical site visit report analyzing real-world civil and mechanical engineering practices, quad-ISO compliance, and precision manufacturing at ZOT Engineering.
 
-### [Structural Mechanics & Dynamics]({{ '/projects/Structural mechanics' | relative_url }})
-Engineering analysis of structural loading, stress/strain distribution, deflection, vibration, and dynamic responses in mechanical elements[cite: 8].
+### [Structural Mechanics & Dynamics (1st Class)]({{ '/projects/structural-mechanics/' | relative_url }})
+Experimental investigation into unsymmetric L-section beam bending and Castigliano's theorem for curved beam stiffness analysis.
 
 ---
 
