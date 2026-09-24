@@ -4,12 +4,40 @@ title: Engineering Action Site Visit
 permalink: /projects/engineering-action-site-visit/
 ---
 
-<iframe src="{{ '/assests/Engineering_Companies_Report.pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
-  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/Engineering_Companies_Report.pdf' | relative_url }}">download the PDF here</a>.</p>
+<h1>Engineering Action — Site Visit Report</h1>
+
+<p>
+  <strong>Grade Awarded:</strong> 1st Class<br>
+  <strong>Company Visited:</strong> ZOT Engineering (Musselburgh, Scotland)<br>
+  <strong>Course:</strong> Engineering Companies in Action
+</p>
+
+<hr style="margin: 20px 0;">
+
+<h2>Executive Summary & Key Highlights</h2>
+
+<p>This course report evaluated the strategic management, operational compliance, quality assurance systems, and manufacturing environment of <strong>ZOT Engineering</strong>—Scotland's largest independent contract manufacturer specializing in high-precision PCB design, electronics assembly (PCBA), and sheet metal fabrication.</p>
+
+<h3>Key Analysis Focus Areas:</h3>
+<ul>
+  <li><strong>Quad-ISO Integrated Management System (IMS):</strong> Evaluation of ZOT's unified quality system spanning ISO 9001:2015, AS9100D (Aerospace), ISO 13485 (Medical Devices), and ISO 14001 (Environmental).</li>
+  <li><strong>High-Reliability Manufacturing:</strong> Analysis of mission-critical electro-mechanical manufacturing, including FDA-approved medical device components and ITAR-compliant defence technology.</li>
+  <li><strong>Operational Risk & Security:</strong> Review of PUWER machine safety, COSHH fume extraction, ITAR confidentiality protocols, and Cyber Essentials Plus security frameworks.</li>
+  <li><strong>Sustainability & EDI:</strong> Assessment of zero-to-landfill waste segregation and inclusive entry pathways via in-house apprenticeship programs.</li>
+</ul>
+
+<hr style="margin: 20px 0;">
+
+<h2>PDF Report</h2>
+
+<div style="margin: 15px 0;">
+  <a href="{{ site.baseurl }}/assests/Engineering_Companies_Report.pdf" target="_blank" style="display: inline-block; padding: 10px 18px; background: #0066cc; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">📄 Download PDF Report</a>
+</div>
+
+<iframe src="{{ site.baseurl }}/assests/Engineering_Companies_Report.pdf" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+  <p>Your browser does not support PDF embedding. You can <a href="{{ site.baseurl }}/assests/Engineering_Companies_Report.pdf">download the PDF here</a>.</p>
 </iframe>
 
-&nbsp;
+<hr style="margin: 30px 0;">
 
----
-
-[← Back to University Projects]({{ '/uni-projects/' | relative_url }})
+<p><a href="{{ site.baseurl }}/uni-projects/">&larr; Back to University Projects</a></p>
