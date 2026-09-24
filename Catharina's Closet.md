@@ -12,9 +12,9 @@ An overview of founding, managing, and scaling a fashion business alongside my e
 
 ## About the Business
 
-**Catharina's Closet** is an online fashion rental / curated clothing initiative focused on sustainable fashion, quality garments, and affordable access to contemporary styles.
+**Catharina's Closet** is an online curated clothing initiative focused on sustainable fashion, quality garments, and affordable access to contemporary styles.
 
-* **Founded:** [Insert Year]
+* **Founded:** 2022
 * **Role:** Founder & Director
 * **Industry:** E-commerce / Sustainable Fashion
 
