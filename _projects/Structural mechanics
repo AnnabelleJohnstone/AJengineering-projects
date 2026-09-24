@@ -4,12 +4,38 @@ title: Structural Mechanics & Dynamics Lab
 permalink: /projects/structural-mechanics/
 ---
 
-# Structural Mechanics & Dynamics Lab
+# Structural Mechanics & Dynamics — Experimental Analysis
 
-* 📄 **[Download PDF directly](/assests/SMD3_DynamicsLab_%20%2B(1).pdf)**
+**Grade Awarded:** 1st Class  
+**Course:** Structural Mechanics and Dynamics 3 (MECE09036)  
+**Institution:** University of Edinburgh  
 
-<iframe src="/assests/SMD3_DynamicsLab_%20%2B(1).pdf" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
-  <p>Your browser does not support PDF embedding. You can <a href="/assests/SMD3_DynamicsLab_%20%2B(1).pdf">download the PDF here</a>.</p>
+---
+
+## Executive Summary & Core Experiments
+
+This laboratory workbook evaluates structural deflection mechanics across asymmetric and curved beam geometries, comparing theoretical elastic formulations against experimental measurements.
+
+### Experiment 1: Unsymmetric Bending of Beams
+* **Objective:** Investigated the combined vertical ($\delta_v$) and horizontal ($\delta_h$) tip deflections of a mild-steel L-section cantilever beam rotated in $10^\circ$ increments through $180^\circ$ under a constant $5.98\text{ N}$ load.
+* **Key Results:** Identified the experimental principal axis angle at $\alpha_{\text{exp}} = 47.1^\circ$, showing strong agreement with the theoretical prediction of $\alpha_{\text{theo}} = 44.6^\circ$ ($5.4\%$ error).
+
+### Experiment 2: Load-Deflection Behavior of Curved Beams
+* **Objective:** Evaluated non-linear stress distribution and elastic stiffness of a semicircular curved beam ($R = 148.65\text{ mm}$) subjected to incremental loading ($0\text{ to }10\text{ N}$) and unloading.
+* **Key Results:** Used Castigliano's second theorem to calculate theoretical stiffness values ($k_v = 3.26\text{ N/mm}$, $k_h = 2.56\text{ N/mm}$) and analyzed experimental deviations caused by clamp compliance and support flexibility.
+
+---
+
+## PDF Technical Report
+
+* 📄 **[Open PDF Document directly in browser]({{ '/assests/SMD3_DynamicsLab_%2B(1).pdf' | relative_url }})**
+
+Below is the complete marked lab report and analytical calculations:
+
+<iframe src="{{ '/assests/SMD3_DynamicsLab_%2B(1).pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/SMD3_DynamicsLab_%2B(1).pdf' | relative_url }}">download the PDF here</a>.</p>
 </iframe>
 
 ---
+
+[← Back to University Projects]({{ '/uni-projects/' | relative_url }})
