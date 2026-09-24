@@ -8,6 +8,5 @@ permalink: /projects/heat-exchanger/
 <iframe src="{{ '/assests/Lab TF3 FM (1).pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
   <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/Lab TF3 FM (1).pdf' | relative_url }}">download the PDF here</a>.</p>
 </iframe>
-[← Back to University Projects]({{ '/uni-projects/' | relative_url }})
 ---
-
+[← Back to University Projects]({{ '/uni-projects/' | relative_url }})
