@@ -15,7 +15,7 @@ Below is an overview of my professional internship experiences and engineering p
 **Duration:** Summer 2026  
 **Focus:** Solar PV integration, heat pump efficiency, Building Regulations (Section 6), and SAP performance modelling.
 
-* **[View Bellway Internship & Projects →]({{ '/projects/bellway/' | relative_url }})**
+* **[View Bellway Internship & Projects →]({{ '/_projects/bellway/' | relative_url }})**
 
 ---
 
