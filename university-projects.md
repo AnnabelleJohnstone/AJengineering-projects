@@ -18,11 +18,11 @@ A complete hardware implementation of the classic Snake game on a Basys 3 FPGA w
 ### [Sustainable Development (SD)]({{ '/projects/SD' | relative_url }})
 Project focusing on sustainable engineering principles, life-cycle analysis, and renewable technology integration (including wind turbine design).
 
-### [Heat Exchanger Analysis]({{ '/projects/Heat Exchanger' | relative_url }})
-Thermal fluids and heat transfer project evaluating energy transfer rates, logarithmic mean temperature difference (LMTD), and efficiency in heat exchanger designs.
+### [Heat Exchanger & Fluid Mechanics Analysis]({{ '/projects/heat-exchanger/' | relative_url }})
+Thermal fluids and fluid mechanics project evaluating dual centrifugal pump parallel networks, affinity laws, and system head curves.
 
-### [Engineering Action Site Visit]({{ '/projects/Engineering Action Site visit' | relative_url }})
-Practical site visit report analyzing real-world civil and mechanical engineering practices, site operations, and structural design implementation[cite: 8].
+### [Engineering Action Site Visit (1st Class)]({{ '/projects/engineering-action-site-visit/' | relative_url }})
+Practical site visit report analyzing real-world civil and mechanical engineering practices, quad-ISO compliance, and precision manufacturing at ZOT Engineering.
 
 ### [Structural Mechanics & Dynamics]({{ '/projects/Structural mechanics' | relative_url }})
 Engineering analysis of structural loading, stress/strain distribution, deflection, vibration, and dynamic responses in mechanical elements[cite: 8].
