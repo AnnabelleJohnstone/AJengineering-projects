@@ -20,20 +20,20 @@ A complete hardware implementation of the classic Snake game on a Basys 3 FPGA w
 Thermal fluids and fluid mechanics project evaluating dual centrifugal pump parallel networks, affinity laws, and system head curves.
 
 ### [Engineering Action Site Visit (1st Class)]({{ '/projects/engineering-action-site-visit/' | relative_url }})
-Practical site visit report analyzing real-world civil and mechanical engineering practices, quad-ISO compliance, and precision manufacturing at ZOT Engineering.
+Practical site visit report analysing real-world civil and mechanical engineering practices, quad-ISO compliance, and precision manufacturing at ZOT Engineering.
 
 ### [Structural Mechanics & Dynamics (1st Class)]({{ '/projects/structural-mechanics/' | relative_url }})
-Experimental investigation into unsymmetric L-section beam bending and Castigliano's theorem for curved beam stiffness analysis.
+Experimental investigation of unsymmetric L-section beam bending and Castigliano's theorem for curved-beam stiffness analysis.
 
 ---
 
 ## Technical Skills Developed
 
-* **Thermal & Fluid Systems:** Heat Exchanger Sizing, LMTD Method, Energy Auditing, Renewable Energy Systems[cite: 8]
-* **Structural & Dynamic Analysis:** Stress Analysis, Beam Deflection, Structural Mechanics, Dynamic Loads[cite: 8]
-* **FPGA & Embedded Design:** Verilog, VHDL, Vivado, VGA Timing, Hardware State Machines[cite: 8]
-* **Embedded Systems:** ARM Cortex, Raspberry Pi, Arduino, Real-time Control[cite: 8]
-* **Software & Hardware Tools:** C/C++, Python, SolidWorks, MATLAB/Simulink[cite: 8]
+* **Thermal & Fluid Systems:** Heat Exchanger Sizing, LMTD Method, Energy Auditing, Renewable Energy Systems.
+* **Structural & Dynamic Analysis:** Stress Analysis, Beam Deflection, Structural Mechanics, Dynamic Loads.
+* **FPGA & Embedded Design:** Verilog, VHDL, Vivado, VGA Timing, Hardware State Machines.
+* **Embedded Systems:** ARM Cortex, Raspberry Pi, Arduino, Real-time Control.
+* **Software & Hardware Tools:** C/C++, Python, SolidWorks, MATLAB/Simulink.
 
 ---
 
