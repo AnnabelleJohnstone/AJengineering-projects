@@ -4,29 +4,6 @@ title: Heat Exchanger & Fluid Mechanics Analysis
 permalink: /projects/heat-exchanger/
 ---
 
-# Heat Exchanger & Fluid Mechanics Analysis
-
-**Course:** Thermal Fluids & Fluid Mechanics  
-**Topic:** Dual Centrifugal Pump Station Design & Performance Analysis  
-
----
-
-## Executive Summary & System Overview
-
-This project evaluated pump affinity laws, hydraulic head loss, and parallel network configurations to design a dual centrifugal pump station capable of meeting a variable client demand of $6\text{ to }780\text{ ltr/min}$ against a constant $5\text{ m}$ system head constraint[cite: 7].
-
-### Key Technical Achievements & Analysis:
-* **Parallel Pump Configuration:** Engineered a solution combining Pump C ($D = 200\text{ mm}$) and Pump D ($D = 250\text{ mm}$) in parallel at $2900\text{ RPM}$, achieving a combined maximum flow rate of $1064\text{ ltr/min}$ at $5\text{ m}$ head[cite: 7].
-* **No-Electronics Constraint:** Integrated non-return check valves (NRVs), a manual globe valve for throttling, and a mechanical rotameter for visual flow verification without electronic instrumentation[cite: 7].
-* **Dimensional Scaling & Affinity Laws:** Applied scaling principles to extrapolate experimental laboratory data across variable rotational speeds ($2100\text{ to }3300\text{ RPM}$) to standard operating conditions ($2900\text{ RPM}$)[cite: 7].
-
----
-
-## PDF Technical Report
-
-* 📄 **[Open PDF Document directly in browser]({{ '/assests/Lab TF3 FM (1).pdf' | relative_url }})**[cite: 1, 7]
-
-Below is the complete lab report and hydraulic performance analysis:
 
 <iframe src="{{ '/assests/Lab TF3 FM (1).pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
   <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/Lab TF3 FM (1).pdf' | relative_url }}">download the PDF here</a>.</p>
@@ -34,4 +11,3 @@ Below is the complete lab report and hydraulic performance analysis:
 
 ---
 
-[← Back to University Projects]({{ '/uni-projects/' | relative_url }})
