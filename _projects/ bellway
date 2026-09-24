@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bellway Homes Internship
-permalink: /_projects/bellway/
+permalink: /projects/bellway/
 ---
 
 # Bellway Homes — Engineering Internship
@@ -27,7 +27,7 @@ Below is the full feasibility report available to view directly on this page:
   width="100%" 
   height="700px" 
   style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
-  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assets/docs/Bellway_PV_Feasibility_Study.pdf' | relative_url }}">download the PDF here</a>.</p>
+  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assets/PV_Integration_Analysis.pdf' | relative_url }}">download the PDF here</a>.</p>
 </iframe>
 
 ---
