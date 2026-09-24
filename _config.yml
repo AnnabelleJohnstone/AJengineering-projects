@@ -5,27 +5,22 @@ author: "Annabelle Johnstone"
 markdown: kramdown
 theme: minima
 
-#  This must match your repo name
 baseurl: "/AJengineering-projects"
-
-#  Your GitHub Pages domain
 url: "https://annabellejohnstone.github.io"
 
-#  Optional: show these in the default minima header nav
+# Header navigation bar pages
 header_pages:
   - about.md
-  - uni-projects.md
+  - university-projects.md
+  - internships.md
   - home-projects.md
   - catharinas-closet.md
 
-#  Social links (replace placeholders with your real usernames)
 github_username: AnnabelleJohnstone
 linkedin_username: annabelle-johnstone
 
-#  Collections (for custom project pages later)
 collections:
   projects:
     output: true
 
-#  Clean URLs (no .html at the end)
 permalink: pretty
