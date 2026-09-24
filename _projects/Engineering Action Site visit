@@ -26,12 +26,12 @@ This course report evaluated the strategic management, operational compliance, q
 
 ## PDF Report
 
-* 📄 **[Open PDF Document directly in browser]({{ '/assests/Assignment 2 – Engineering Companies in Action Report.pdf' | relative_url }})**
+* 📄 **[Open PDF Document directly in browser]({{ '/assests/Assignment+2+-+Engineering+Companies+in+Action+Report.pdf' | relative_url }})**
 
 Below is the full 1st-class report available to read directly on this page:
 
-<iframe src="{{ '/assests/Assignment 2 – Engineering Companies in Action Report.pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
-  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/Assignment 2 – Engineering Companies in Action Report.pdf' | relative_url }}">download the PDF here</a>.</p>
+<iframe src="{{ '/assests/Assignment+2+-+Engineering+Companies+in+Action+Report.pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/Assignment+2+-+Engineering+Companies+in+Action+Report.pdf' | relative_url }}">download the PDF here</a>.</p>
 </iframe>
 
 ---
