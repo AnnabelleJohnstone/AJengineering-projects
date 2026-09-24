@@ -26,12 +26,12 @@ This course report evaluated the strategic management, operational compliance, q
 
 ## PDF Report
 
-* 📄 **[Open PDF Document directly in browser](/assests/Assignment%2B2%2B-%2BEngineering%2BCompanies%2Bin%2BAction%2BReport.pdf)**
+* 📄 **[Open PDF Document directly in browser]({{ '/assests/Engineering_Companies_Report.pdf' | relative_url }})**
 
 Below is the full 1st-class report available to read directly on this page:
 
-<iframe src="/assests/Assignment%2B2%2B-%2BEngineering%2BCompanies%2Bin%2BAction%2BReport.pdf" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
-  <p>Your browser does not support PDF embedding. You can <a href="/assests/Assignment%2B2%2B-%2BEngineering%2BCompanies%2Bin%2BAction%2BReport.pdf">download the PDF here</a>.</p>
+<iframe src="{{ '/assests/Engineering_Companies_Report.pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/Engineering_Companies_Report.pdf' | relative_url }}">download the PDF here</a>.</p>
 </iframe>
 
 ---
