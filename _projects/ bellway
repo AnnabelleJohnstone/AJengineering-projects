@@ -12,15 +12,19 @@ permalink: /projects/bellway/
 
 ---
 
+## Key Projects & Reports
+
+### 1. Solar PV Feasibility & Benefit Analysis
+
+A comprehensive technical, financial, and marketing evaluation of integrating solar PV with Air Source Heat Pumps (ASHP) across standard Bellway house types.
+
+* 📄 **[Open PDF Document directly in browser]({{ '/assests/PV_Integration_Analysis.pdf' | relative_url }})**
 
 #### Embedded PDF Report
+
 Below is the full feasibility report available to view directly on this page:
 
-<iframe 
-  src="{{ '/assests/PV_Integration_Analysis.pdf' | relative_url }}" 
-  width="100%" 
-  height="700px" 
-  style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+<iframe src="{{ '/assests/PV_Integration_Analysis.pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
   <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/PV_Integration_Analysis.pdf' | relative_url }}">download the PDF here</a>.</p>
 </iframe>
 
