@@ -24,3 +24,4 @@ See what I’ve built outside university on the [At Home Projects]({{ '/home-pro
 
 ## My Business
 Take a look at how I founded and run [Catharina's Closet]({{ '/catharinas-closet/' | relative_url }}).
+
