@@ -5,7 +5,7 @@ title: FPGA Snake Game – Basys 3 Edition
 
 # FPGA Snake Game – Basys 3 Edition 
 
-[← Back to University Projects]({{ '/university-projects/' | relative_url }})
+[← Back to University Projects]({{ '/uni-projects/' | relative_url }})
 
 <div style="margin: 20px 0;">
   <a href="https://github.com/AnnabelleJohnstone/FPGA--Snake-game-for-basys-3-board-" target="_blank" style="display: inline-block; padding: 10px 20px; background: #ff6b9d; color: white; text-decoration: none; border-radius: 5px; margin-right: 10px;">View Code on GitHub</a>
@@ -86,5 +86,5 @@ Connect your Basys 3 to a VGA monitor, program the bitstream, and you're ready! 
 - Progressive difficulty with increasing speed
 - Visual and numerical score display
 
-[View on GitHub](https://github.com/AnnabelleJohnstone/FPGA--Snake-game-for-basys-3-board-) | [← Back to University Projects](../university-projects.md)
+[View on GitHub](https://github.com/AnnabelleJohnstone/FPGA--Snake-game-for-basys-3-board-) | [← Back to University Projects]({{ '/uni-projects/' | relative_url }})
 
