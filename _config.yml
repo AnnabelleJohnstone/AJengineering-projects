@@ -11,10 +11,7 @@ url: "https://annabellejohnstone.github.io"
 # Header navigation bar pages
 header_pages:
   - about.md
-  - university-projects.md
-  - internships.md
   - home-projects.md
-  - catharinas-closet.md
 
 github_username: AnnabelleJohnstone
 linkedin_username: annabelle-johnstone
