@@ -4,10 +4,12 @@ title: Structural Mechanics & Dynamics Lab
 permalink: /projects/structural-mechanics/
 ---
 
+# Structural Mechanics & Dynamics Lab
 
+* 📄 **[Download PDF directly](/assests/SMD3_DynamicsLab_%20%2B(1).pdf)**
 
-<iframe src="{{ '/assests/SMD3_DynamicsLab_%20%2B(1).pdf' | relative_url }}" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
-  <p>Your browser does not support PDF embedding. You can <a href="{{ '/assests/SMD3_DynamicsLab_%20%2B(1).pdf' | relative_url }}">download the PDF here</a>.</p>
+<iframe src="/assests/SMD3_DynamicsLab_%20%2B(1).pdf" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 6px; margin-top: 10px;">
+  <p>Your browser does not support PDF embedding. You can <a href="/assests/SMD3_DynamicsLab_%20%2B(1).pdf">download the PDF here</a>.</p>
 </iframe>
 
 ---
